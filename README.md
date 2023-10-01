@@ -1,9 +1,25 @@
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=harshboghara2004&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=harshboghara2004&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=harshboghara2004&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+# CoinFlipper
 
----
-[![](https://visitcount.itsvg.in/api?id=harshboghara2004&icon=0&color=0)](https://visitcount.itsvg.in)
+>> Description
+   --- App to get information about current exchange rates of currencies into other currencies.
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+>> Steps to install
+
+Step: 1
+
+`Download a Zip file and open into Xcode.`
+
+Step: 2
+
+`Check all IBOutlets and IBActions are connected or not.`
+[!Note]
+If not that connect using hold `control key` and drag arrow from storyboard to viewController.
+
+Step: 3
+
+`Get API key from "https://app.currencyapi.com/" and replace API key with variable named apikey into CashFlipper/Model/CurrencyManager`
+[!important]
+With free version of api key you can call only 300 requests/month and at max 10 in a minute.
+Step: 4
+
+`That's it run your app`
