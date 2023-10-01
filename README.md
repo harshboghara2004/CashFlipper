@@ -13,15 +13,15 @@ Step: 2
 
 `Check all IBOutlets and IBActions are connected or not.`
 
-[!Note]
-If not that connect using hold `control key` and drag arrow from storyboard to viewController.
+> [!NOTE]
+> If not that connect using hold `control key` and drag arrow from storyboard to viewController.
 
 Step: 3
 
 `Get API key from "https://app.currencyapi.com/" and replace API key with variable named apikey into CashFlipper/Model/CurrencyManager`
 
-[!important]
-With free version of api key you can call only 300 requests/month and at max 10 in a minute.
+> [!IMPORTANT]
+> With free version of api key you can call only 300 requests/month and at max 10 in a minute.
 
 Step: 4
 
