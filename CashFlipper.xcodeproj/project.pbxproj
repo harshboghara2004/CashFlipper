@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A48BF522AC947C800072AE9 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48BF512AC947C800072AE9 /* CurrencyModel.swift */; };
+		3A4DB3992AC95754003AA5D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DB3982AC95754003AA5D3 /* ViewController.swift */; };
+		3A4DB39F2AC95949003AA5D3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DB39E2AC95949003AA5D3 /* ResultViewController.swift */; };
+		3A5899B72AC9364A00894696 /* CurrencyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5899B62AC9364A00894696 /* CurrencyData.swift */; };
+		3AC1A3412AC89E23001CE7F1 /* CurrencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC1A3402AC89E23001CE7F1 /* CurrencyManager.swift */; };
+		3AC2B3CA2AB6A87700BF3659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC2B3C92AB6A87700BF3659 /* AppDelegate.swift */; };
+		3AC2B3CC2AB6A87700BF3659 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC2B3CB2AB6A87700BF3659 /* SceneDelegate.swift */; };
+		3AC2B3D12AB6A87700BF3659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC2B3CF2AB6A87700BF3659 /* Main.storyboard */; };
+		3AC2B3D42AB6A87700BF3659 /* CashFlipper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AC2B3D22AB6A87700BF3659 /* CashFlipper.xcdatamodeld */; };
+		3AC2B3D62AB6A87800BF3659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC2B3D52AB6A87800BF3659 /* Assets.xcassets */; };
+		3AC2B3D92AB6A87800BF3659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC2B3D72AB6A87800BF3659 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A48BF512AC947C800072AE9 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		3A4DB3982AC95754003AA5D3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A4DB39E2AC95949003AA5D3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		3A5899B62AC9364A00894696 /* CurrencyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyData.swift; sourceTree = "<group>"; };
+		3AC1A3402AC89E23001CE7F1 /* CurrencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyManager.swift; sourceTree = "<group>"; };
+		3AC2B3C62AB6A87700BF3659 /* CashFlipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashFlipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC2B3C92AB6A87700BF3659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3AC2B3CB2AB6A87700BF3659 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3AC2B3D02AB6A87700BF3659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AC2B3D32AB6A87700BF3659 /* CashFlipper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CashFlipper.xcdatamodel; sourceTree = "<group>"; };
+		3AC2B3D52AB6A87800BF3659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AC2B3D82AB6A87800BF3659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AC2B3DA2AB6A87800BF3659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AC2B3C32AB6A87700BF3659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AC2B3BD2AB6A87700BF3659 = {
+			isa = PBXGroup;
+			children = (
+				3AC2B3C82AB6A87700BF3659 /* CashFlipper */,
+				3AC2B3C72AB6A87700BF3659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AC2B3C72AB6A87700BF3659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AC2B3C62AB6A87700BF3659 /* CashFlipper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AC2B3C82AB6A87700BF3659 /* CashFlipper */ = {
+			isa = PBXGroup;
+			children = (
+				3AC2B3C92AB6A87700BF3659 /* AppDelegate.swift */,
+				3AC2B3CB2AB6A87700BF3659 /* SceneDelegate.swift */,
+				3AC2B3E22AB6B70F00BF3659 /* Models */,
+				3AC2B3E12AB6B70400BF3659 /* Views */,
+				3AC2B3E02AB6B6EE00BF3659 /* Controllers */,
+				3AC2B3D52AB6A87800BF3659 /* Assets.xcassets */,
+				3AC2B3D72AB6A87800BF3659 /* LaunchScreen.storyboard */,
+				3AC2B3DA2AB6A87800BF3659 /* Info.plist */,
+				3AC2B3D22AB6A87700BF3659 /* CashFlipper.xcdatamodeld */,
+			);
+			path = CashFlipper;
+			sourceTree = "<group>";
+		};
+		3AC2B3E02AB6B6EE00BF3659 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A4DB3982AC95754003AA5D3 /* ViewController.swift */,
+				3A4DB39E2AC95949003AA5D3 /* ResultViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3AC2B3E12AB6B70400BF3659 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AC2B3CF2AB6A87700BF3659 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3AC2B3E22AB6B70F00BF3659 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3AC1A3402AC89E23001CE7F1 /* CurrencyManager.swift */,
+				3A5899B62AC9364A00894696 /* CurrencyData.swift */,
+				3A48BF512AC947C800072AE9 /* CurrencyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AC2B3C52AB6A87700BF3659 /* CashFlipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC2B3DD2AB6A87800BF3659 /* Build configuration list for PBXNativeTarget "CashFlipper" */;
+			buildPhases = (
+				3AC2B3C22AB6A87700BF3659 /* Sources */,
+				3AC2B3C32AB6A87700BF3659 /* Frameworks */,
+				3AC2B3C42AB6A87700BF3659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashFlipper;
+			productName = CashFlipper;
+			productReference = 3AC2B3C62AB6A87700BF3659 /* CashFlipper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AC2B3BE2AB6A87700BF3659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3AC2B3C52AB6A87700BF3659 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3AC2B3C12AB6A87700BF3659 /* Build configuration list for PBXProject "CashFlipper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AC2B3BD2AB6A87700BF3659;
+			productRefGroup = 3AC2B3C72AB6A87700BF3659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AC2B3C52AB6A87700BF3659 /* CashFlipper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AC2B3C42AB6A87700BF3659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC2B3D92AB6A87800BF3659 /* LaunchScreen.storyboard in Resources */,
+				3AC2B3D62AB6A87800BF3659 /* Assets.xcassets in Resources */,
+				3AC2B3D12AB6A87700BF3659 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AC2B3C22AB6A87700BF3659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A48BF522AC947C800072AE9 /* CurrencyModel.swift in Sources */,
+				3A5899B72AC9364A00894696 /* CurrencyData.swift in Sources */,
+				3AC1A3412AC89E23001CE7F1 /* CurrencyManager.swift in Sources */,
+				3A4DB39F2AC95949003AA5D3 /* ResultViewController.swift in Sources */,
+				3AC2B3D42AB6A87700BF3659 /* CashFlipper.xcdatamodeld in Sources */,
+				3A4DB3992AC95754003AA5D3 /* ViewController.swift in Sources */,
+				3AC2B3CA2AB6A87700BF3659 /* AppDelegate.swift in Sources */,
+				3AC2B3CC2AB6A87700BF3659 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AC2B3CF2AB6A87700BF3659 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AC2B3D02AB6A87700BF3659 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AC2B3D72AB6A87800BF3659 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AC2B3D82AB6A87800BF3659 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AC2B3DB2AB6A87800BF3659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AC2B3DC2AB6A87800BF3659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AC2B3DE2AB6A87800BF3659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HG6768252M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CashFlipper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harshboghara.CashFlipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AC2B3DF2AB6A87800BF3659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HG6768252M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CashFlipper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harshboghara.CashFlipper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AC2B3C12AB6A87700BF3659 /* Build configuration list for PBXProject "CashFlipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC2B3DB2AB6A87800BF3659 /* Debug */,
+				3AC2B3DC2AB6A87800BF3659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC2B3DD2AB6A87800BF3659 /* Build configuration list for PBXNativeTarget "CashFlipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC2B3DE2AB6A87800BF3659 /* Debug */,
+				3AC2B3DF2AB6A87800BF3659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3AC2B3D22AB6A87700BF3659 /* CashFlipper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3AC2B3D32AB6A87700BF3659 /* CashFlipper.xcdatamodel */,
+			);
+			currentVersion = 3AC2B3D32AB6A87700BF3659 /* CashFlipper.xcdatamodel */;
+			path = CashFlipper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3AC2B3BE2AB6A87700BF3659 /* Project object */;
+}
