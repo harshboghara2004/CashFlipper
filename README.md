@@ -33,8 +33,4 @@ Step: 4
 `Home Screen `
 
 <img width="300" alt="Simulator Screenshot - iPhone 15 Pro - 2023-10-01 at 14 34 29" src="https://github.com/harshboghara2004/CashFlipper/assets/104019887/7378c8bc-d19f-4ca5-ad88-3e099cc421eb">
-
-
-`Result Screen`
-
 <img width="300" alt="Simulator Screenshot - iPhone 15 Pro - 2023-10-01 at 14 34 34" src="https://github.com/harshboghara2004/CashFlipper/assets/104019887/c6079720-48f5-493d-bfba-b1b15281e26e">
