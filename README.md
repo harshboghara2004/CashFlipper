@@ -13,7 +13,7 @@ Step: 2
 `Check all IBOutlets and IBActions are connected or not.`
 
 > [!NOTE]
-> If not that connect using hold `control key` and drag arrow from storyboard to viewController.
+> If not that connect using  `control key`  hold and drag arrow from storyboard to viewController.
 
 Step: 3
 
