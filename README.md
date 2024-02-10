@@ -17,7 +17,7 @@ Step: 2
 
 Step: 3
 
-Get API key from [CurrencyAPI](https://currencyapi.com/) and replace API key with variable named apikey into CashFlipper/Model/CurrencyManager
+`Get API key from` [CurrencyAPI](https://currencyapi.com/) `and replace API key with variable named apikey into CashFlipper/Model/CurrencyManager`
 
 > Here ...
 <img width="655" alt="Screenshot 2023-10-01 at 2 28 55 PM" src="https://github.com/harshboghara2004/CashFlipper/assets/104019887/da093081-a759-4e1e-a1f5-16667de6c95d">
